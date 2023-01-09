@@ -129,7 +129,7 @@ class OpenAI(commands.Cog):
         super().__init__()
         self.cutie = cutie
 
-    openai.api_key = "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"
+    openai.api_key = "api_key"
 
     group = app_commands.Group(
         name="openai", description="Utilize the OpenAI's api")
