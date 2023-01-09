@@ -1,8 +1,8 @@
 import openai
 from discord.ext import commands
 
-openai.api_key = "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"
-chat = 957252249166430239
+openai.api_key = "apikey"
+chat = channel_id
 
 
 async def gen(query):
