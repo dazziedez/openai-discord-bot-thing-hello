@@ -124,7 +124,7 @@ class ImgRegen(discord.ui.View):
         return True
 
 
-class OpenAI(commands.Cog):
+class CloseAI(commands.Cog):
     def __init__(self, cutie):
         super().__init__()
         self.cutie = cutie
