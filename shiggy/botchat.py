@@ -189,4 +189,4 @@ class CloseAI(commands.Cog):
 
 
 async def setup(cutie):
-    await cutie.add_cog(OpenAI(cutie))
+    await cutie.add_cog(CloseAI(cutie))
