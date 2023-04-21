@@ -12,7 +12,7 @@ class Cutie(commands.Bot):
 
 
 cutie = Cutie()
-
+# cutie
 
 async def load():
     print(":3")
